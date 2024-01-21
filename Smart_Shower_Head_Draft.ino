@@ -6,11 +6,11 @@
 #include <HTTPClient.h>
 
 //Website Stuff
-String URL = "http://IP_ADDRESS/HydroSense/test_data.php";
+String URL = "http://172.20.10.4/HydroSense/test_data.php";
 
 //User/Pass for Hotspot
-const char* ssid = "USER";
-const char* password = "PASS";
+const char* ssid = "Shib";
+const char* password = "352003SHIB";
 
 //Default values if nothing is fed in
 String Time = (String)1;
@@ -278,7 +278,7 @@ void loop(void) {
             */
             updateAll(currentUser);
 
-            Time = (String)(currentUser->avgTemp/1000);
+            Time = (String)(currentUser->totalTime/1000.0);
             Liters = (String)getWaterUsage();
             PersonType = (String)(currentUser->idNumber+1);
             Temperature = randomNumber;
