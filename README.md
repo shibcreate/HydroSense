@@ -23,7 +23,7 @@ Did you know that the average American uses enough water to fill over eight Olym
 
 - **User-Friendly Interface**: Our intuitive Streamlit-based interface allows users to easily customize shower preferences and track water usage patterns.
 
-- **Energy-Efficient Heating**: HydroSense works seamlessly with your water heater to ensure energy-efficient heating, contributing to both water and energy conservation.
+- **Energy-Efficient Heating**: HydroSense works seamlessly with your water heater to monitor energy-efficient heating, contributing to both water and energy conservation.
 
 ## Technologies Used
 
