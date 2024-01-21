@@ -112,6 +112,3 @@ st.write(df_all['Liters'].mean())
 lottie_hello1 = load_lottieurl("https://lottie.host/6a36fd81-4f6a-4d2e-b31f-86ca3f542a83/gabbKRET4U.json")
 
 st_lottie(lottie_hello1, loop=True, width=700, height=300)
-
-
-# Notes: C:\Users\shini\HydroSense is directory for streamlit application - Need admin to run on Anaconda Portal - Need to run first two systems for MySQL
