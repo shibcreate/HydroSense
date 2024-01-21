@@ -1,0 +1,410 @@
+2024-01-20 00:41:47 [INFO] Question: show me the count of rows
+2024-01-20 00:41:47 [INFO] Running PandasAI with openai LLM...
+2024-01-20 00:41:47 [INFO] Prompt ID: 26e98e58-0be8-46d3-908f-de7d33b6eab1
+2024-01-20 00:41:47 [INFO] Executing Step 0: CacheLookup
+2024-01-20 00:41:47 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 00:41:47 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+10,4,43,3
+40,10,35,1
+50,7,50,2
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: show me the count of rows
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 00:41:47 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 00:41:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:41:47 [INFO] Retrying request to /chat/completions in 0.926288 seconds
+2024-01-20 00:41:48 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:41:48 [INFO] Retrying request to /chat/completions in 1.706475 seconds
+2024-01-20 00:41:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:41:50 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 00:45:08 [INFO] Question: What is the count of rows?
+2024-01-20 00:45:09 [INFO] Running PandasAI with openai LLM...
+2024-01-20 00:45:09 [INFO] Prompt ID: e5feb1b3-e55c-4250-afaf-6a2c09cf4735
+2024-01-20 00:45:09 [INFO] Executing Step 0: CacheLookup
+2024-01-20 00:45:09 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 00:45:09 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+40,10,35,1
+10,4,43,3
+50,7,50,2
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: What is the count of rows?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 00:45:09 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 00:45:09 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:45:09 [INFO] Retrying request to /chat/completions in 0.857892 seconds
+2024-01-20 00:45:10 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:45:10 [INFO] Retrying request to /chat/completions in 1.716854 seconds
+2024-01-20 00:45:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:45:12 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 00:45:29 [INFO] Question: What is the count of rows?
+
+2024-01-20 00:45:29 [INFO] Running PandasAI with openai LLM...
+2024-01-20 00:45:29 [INFO] Prompt ID: 1814cad5-5761-41cb-ab4a-8d30a5bd6981
+2024-01-20 00:45:29 [INFO] Executing Step 0: CacheLookup
+2024-01-20 00:45:29 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 00:45:29 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+40,10,35,1
+50,7,50,2
+10,4,43,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: What is the count of rows?
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 00:45:29 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 00:45:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:45:29 [INFO] Retrying request to /chat/completions in 0.950004 seconds
+2024-01-20 00:45:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:45:31 [INFO] Retrying request to /chat/completions in 1.604909 seconds
+2024-01-20 00:45:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:45:32 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 00:47:36 [INFO] Question: What is the count of rows
+2024-01-20 00:47:36 [INFO] Running PandasAI with openai LLM...
+2024-01-20 00:47:36 [INFO] Prompt ID: 995667a7-55e6-4f81-bb70-626860c98713
+2024-01-20 00:47:36 [INFO] Executing Step 0: CacheLookup
+2024-01-20 00:47:36 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 00:47:36 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+10,4,43,3
+50,7,50,2
+40,10,35,1
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: What is the count of rows
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 00:47:36 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 00:47:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:47:37 [INFO] Retrying request to /chat/completions in 0.757938 seconds
+2024-01-20 00:47:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:47:37 [INFO] Retrying request to /chat/completions in 1.855783 seconds
+2024-01-20 00:47:39 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 00:47:39 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 02:04:42 [INFO] Question: what is the largest liter?
+2024-01-20 02:04:43 [INFO] Running PandasAI with openai LLM...
+2024-01-20 02:04:43 [INFO] Prompt ID: 080caf09-3e93-41c5-a7a6-810adf9a821a
+2024-01-20 02:04:43 [INFO] Executing Step 0: CacheLookup
+2024-01-20 02:04:43 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 02:04:43 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+40,10,35,1
+50,7,50,2
+10,4,43,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: what is the largest liter?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 02:04:43 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 02:04:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 02:04:43 [INFO] Retrying request to /chat/completions in 0.906487 seconds
+2024-01-20 02:04:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 02:04:44 [INFO] Retrying request to /chat/completions in 1.775126 seconds
+2024-01-20 02:04:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 02:04:46 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 03:10:23 [INFO] Question: lol
+2024-01-20 03:10:23 [INFO] Running PandasAI with openai LLM...
+2024-01-20 03:10:23 [INFO] Prompt ID: 05f5f55b-b531-4cd6-bdf1-93c39a061c34
+2024-01-20 03:10:23 [INFO] Executing Step 0: CacheLookup
+2024-01-20 03:10:23 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 03:10:23 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+10,4,43,3
+40,10,35,1
+50,7,50,2
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: lol
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 03:10:23 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 03:10:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 03:10:23 [INFO] Retrying request to /chat/completions in 0.857044 seconds
+2024-01-20 03:10:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 03:10:24 [INFO] Retrying request to /chat/completions in 1.807856 seconds
+2024-01-20 03:10:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 03:10:26 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 03:11:27 [INFO] Question: lol
+2024-01-20 03:11:27 [INFO] Running PandasAI with openai LLM...
+2024-01-20 03:11:27 [INFO] Prompt ID: a745bff6-74a6-4447-8048-22562f4ad98d
+2024-01-20 03:11:27 [INFO] Executing Step 0: CacheLookup
+2024-01-20 03:11:27 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 03:11:27 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+40,10,35,1
+10,4,43,3
+50,7,50,2
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: lol
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 03:11:27 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 03:11:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 03:11:27 [INFO] Retrying request to /chat/completions in 0.886981 seconds
+2024-01-20 03:11:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 03:11:28 [INFO] Retrying request to /chat/completions in 1.991968 seconds
+2024-01-20 03:11:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 03:11:30 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 10:38:44 [INFO] Question: How many rows are present?
+2024-01-20 10:38:44 [INFO] Running PandasAI with openai LLM...
+2024-01-20 10:38:44 [INFO] Prompt ID: 4e438c8c-f1fb-40bf-9be7-45f15917cbd4
+2024-01-20 10:38:44 [INFO] Executing Step 0: CacheLookup
+2024-01-20 10:38:44 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 10:38:44 [INFO] Using prompt: <dataframe>
+dfs[0]:4x4
+Liters,Time,Temperature,PersonType
+40,10,35,1
+50,7,50,2
+10,4,43,3
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: How many rows are present?
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 10:38:44 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 10:38:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 10:38:44 [INFO] Retrying request to /chat/completions in 0.783952 seconds
+2024-01-20 10:38:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 10:38:45 [INFO] Retrying request to /chat/completions in 1.889154 seconds
+2024-01-20 10:38:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 10:38:47 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 21:36:30 [INFO] Question: hi
+2024-01-20 21:36:30 [INFO] Running PandasAI with openai LLM...
+2024-01-20 21:36:30 [INFO] Prompt ID: bbe6f328-854b-41eb-ad0a-99477e4cc67e
+2024-01-20 21:36:30 [INFO] Executing Step 0: CacheLookup
+2024-01-20 21:36:30 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 21:36:30 [INFO] Using prompt: <dataframe>
+dfs[0]:1x4
+Liters,Time,Temperature,PersonType
+0,0,0,2
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: hi
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 21:36:30 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 21:36:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 21:36:31 [INFO] Retrying request to /chat/completions in 0.767229 seconds
+2024-01-20 21:36:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 21:36:32 [INFO] Retrying request to /chat/completions in 1.774284 seconds
+2024-01-20 21:36:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 21:36:33 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-01-20 22:55:02 [INFO] Question: who is winning
+2024-01-20 22:55:02 [INFO] Running PandasAI with openai LLM...
+2024-01-20 22:55:02 [INFO] Prompt ID: db0b2c5e-5d1d-41c7-b71e-167a328b32b0
+2024-01-20 22:55:02 [INFO] Executing Step 0: CacheLookup
+2024-01-20 22:55:02 [INFO] Executing Step 1: PromptGeneration
+2024-01-20 22:55:02 [INFO] Using prompt: <dataframe>
+dfs[0]:16x4
+Liters,Time,Temperature,PersonType
+0,0,15,3
+0,0,0,2
+0,0,0,2
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+```
+
+Q: who is winning
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+
+
+Generate python code and return full updated code:
+2024-01-20 22:55:02 [INFO] Executing Step 2: CodeGenerator
+2024-01-20 22:55:23 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 22:55:23 [INFO] Retrying request to /chat/completions in 0.958944 seconds
+2024-01-20 22:55:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 22:55:25 [INFO] Retrying request to /chat/completions in 1.698655 seconds
+2024-01-20 22:55:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-01-20 22:55:26 [ERROR] Pipeline failed on step 2: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
