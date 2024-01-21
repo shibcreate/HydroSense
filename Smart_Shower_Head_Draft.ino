@@ -6,11 +6,11 @@
 #include <HTTPClient.h>
 
 //Website Stuff
-String URL = "http://172.20.10.4/HydroSense/test_data.php";
+String URL = "http://IP_ADDRESS/HydroSense/test_data.php";
 
 //User/Pass for Hotspot
-const char* ssid = "Shib";
-const char* password = "352003SHIB";
+const char* ssid = "USER";
+const char* password = "PASS";
 
 //Default values if nothing is fed in
 String Time = (String)1;
